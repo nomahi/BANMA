@@ -1,13 +1,14 @@
-Package: dmetatools
+Package: BANMA
 Type: Package
-Title: Computational tools for meta-analysis of diagnostic accuracy test
-Version: 1.1.2
-Date: 2022-09-13
+Title: Bayesian Estimation and Prediction for Network Meta-Analysis with Non-Informative Priors
+Version: 1.1-1
+Date: 2022-07-26
 Author: Hisashi Noma
 Maintainer: Hisashi Noma <noma@ism.ac.jp>
-Description: Computational tools for meta-analysis of diagnostic accuracy test. This package enables computations of confidence interval for the AUC of summary ROC curve and some related AUC-based inference methods.
-Depends:
-  MASS, doSNOW, doParallel, mada
+Description: Bayesian estimation and prediction for network meta-analysis with non-informative prior distributions are implementable. Various proper and improper prior distributions are available. The posterior sampling does not require formal convergence checks of MCMC.
+Depends: R (>= 3.5.0)
+Imports: stats, MASS, invgamma
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
