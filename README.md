@@ -1,21 +1,16 @@
 
-# dmetatools package
+# BANMA package
 
 
-## Computational tools for meta-analysis of diagnostic accuracy test
+## Bayesian Estimation and Prediction for Network Meta-Analysis with Non-Informative Priors
 
-A R package for computational tools for meta-analysis of diagnostic accuracy test (DTA):
-
-- Implementing parametic bootstrap for DTA meta-analysis
-- Calculating a confidence interval for the AUC of summary ROC curve
-- Testing the difference of AUCs for summary ROC curves of multiple diagnostic tests
-- Influence diagnostics based on the AUC of summary ROC curve by leave-one-out analysis
+Bayesian estimation and prediction for network meta-analysis with non-informative prior distributions are implementable. Various proper and improper prior distributions are available. The posterior sampling does not require formal convergence checks of MCMC.
 
 
 ## Installation
 
-Please download "dmetatools_1.1.2.tar.gz" and install it by R menu: "packages" -> "Install package(s) from local files...".
+Please download "BANMA_1.1-1.tar.gz" and install it by R menu: "packages" -> "Install package(s) from local files...".
 
-Download: [please click this link](https://github.com/nomahi/dmetatools/raw/main/dmetatools_1.1.2.tar.gz)
+Download: [please click this link](https://github.com/nomahi/BANMA/raw/main/BANMA_1.1-1.tar.gz)
 
-Manual: [please click this link](https://github.com/nomahi/dmetatools/raw/main/dmetatools_1.1.2.pdf)
+Manual: [please click this link](https://github.com/nomahi/BANMA/blob/main/BANMA_1.1-1.pdf)
